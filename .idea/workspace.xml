@@ -5,33 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7728163a-b3f6-414a-97a6-5f496ae9b3b4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/name.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/actions/Common_Actions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/actions/GlobalWait.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/actions/MakeMyTripHotel_Actions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/actions/MakeMyTripTrain_Actions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/elements/Common_Element.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/elements/MakeMyTripHotel_Elements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/elements/MakeMyTripTrain_Elements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/framework/Configuration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/framework/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/steps/Common_Steps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/steps/Driver_Steps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/steps/MakeMyTripHotel_Steps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/steps/MakeMyTripTrain_Steps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/features/makemytrip.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/actions/Common_Actions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/actions/Common_Actions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/actions/MakeMyTripHotel_Actions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/actions/MakeMyTripHotel_Actions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/elements/Common_Element.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/elements/Common_Element.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/elements/MakeMyTripHotel_Elements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/elements/MakeMyTripHotel_Elements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/framework/Configuration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/framework/Configuration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/framework/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/framework/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/steps/Driver_Steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/steps/Driver_Steps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/steps/MakeMyTripHotel_Steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/steps/MakeMyTripHotel_Steps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/makemytrip.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/makemytrip.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -56,19 +51,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/Cucumber_Framework_Integration"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Cucumber_Framework_Integration&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Cucumber_Framework_Integration\target" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestRunner">
+  <component name="RunManager" selected="Cucumber Java.Scenario: Hotel Room Booking">
     <configuration name="Scenario: Hotel Room Booking" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/makemytrip.feature" />
@@ -107,8 +102,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestRunner" />
         <item itemvalue="Cucumber Java.Scenario: Hotel Room Booking" />
+        <item itemvalue="JUnit.TestRunner" />
       </list>
     </recent_temporary>
   </component>

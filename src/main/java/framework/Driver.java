@@ -17,8 +17,7 @@ public class Driver {
     }
     private static WebDriver driver;
     private static final HashMap<String, Class<?>> driverMap = new HashMap<String, Class<?>>(){
-        // Creates a map where keys represent browser names (like "chrome", "firefox") and
-        // values                                                                                                           represent the associated WebDriver classes (e.g., ChromeDriver.class, FirefoxDriver.class).
+        // Creates a map where keys represent browser names (like "chrome", "firefox") and values                                                                                                           represent the associated WebDriver classes (e.g., ChromeDriver.class, FirefoxDriver.class).
         {
             put("chrome", ChromeDriver.class);
             put("firefox", FirefoxDriver.class);

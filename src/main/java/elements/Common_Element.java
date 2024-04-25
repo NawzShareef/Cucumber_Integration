@@ -15,6 +15,9 @@ public class Common_Element {
     @FindBy(xpath = "//a/i[@class='wewidgeticon we_close']")
     public static WebElement offerAlerts;
 
+    @FindBy(xpath="//span[@class='commonModal__close']")
+    public static WebElement signUpClose;
+
     public Common_Element(WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver, this);

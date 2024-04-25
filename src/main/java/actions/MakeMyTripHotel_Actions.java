@@ -78,7 +78,7 @@ public class MakeMyTripHotel_Actions {
                 break;
             }
         }
-        makeMyTrip_Hotel_elements.Apply.click();
+            driver.navigate().refresh();
     }
 
     public void searchBtnClick() {
@@ -98,7 +98,7 @@ public class MakeMyTripHotel_Actions {
             if (!parent.equals(child_window)) {
                 driver.switchTo().window(child_window);
                 Thread.sleep(3000);
-                makeMyTrip_Hotel_elements.viewThisCombo.click();
+                makeMyTrip_Hotel_elements.bookThisNow.click();
             }
 
         }

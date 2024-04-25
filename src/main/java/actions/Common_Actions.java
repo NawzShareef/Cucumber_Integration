@@ -10,7 +10,7 @@ import java.util.List;
 
 public class Common_Actions {
 
-    private WebDriver driver;
+    WebDriver driver;
     Common_Element common_element;
     public Common_Actions(Driver_Steps driver_steps) {
         this.driver = driver_steps.getDriver();
@@ -35,13 +35,22 @@ public class Common_Actions {
         }
     }
     public void offerAlertClose() throws InterruptedException {
-        GlobalWait.wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//iframe[@name='notification-frame-~197145416']")));
-        WebElement notificationFrame=driver.findElement(By.xpath("//iframe[@name='notification-frame-~197145416']"));
+        GlobalWait.wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//iframe[@name='notification-frame-~55858699']")));
+        WebElement notificationFrame=driver.findElement(By.xpath("//iframe[@name='notification-frame-~55858699']"));
         driver.switchTo().frame(notificationFrame);
         boolean image=driver.findElement(By.xpath("//a/i[@class='wewidgeticon we_close']")).isDisplayed();
         if (image) {
             GlobalWait.wait.until(ExpectedConditions.visibilityOf(common_element.offerAlerts)).click();
+
         }
         driver.switchTo().defaultContent();
     }
+
+    public void loginAlertClose(){
+
+        GlobalWait.wait.until(ExpectedConditions.visibilityOf(common_element.signUpClose)).click();
+
+    }
+
+
 }

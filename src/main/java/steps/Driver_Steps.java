@@ -3,6 +3,7 @@ import actions.GlobalWait;
 import framework.Configuration;
 import framework.Driver;
 import io.cucumber.java.*;
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -15,7 +16,7 @@ public class Driver_Steps {
     @Before
     public void setUp() throws Exception {
 
-        //WebDriverManager.chromedriver().setup();
+       //WebDriverManager.chromedriver().setup();
         System.setProperty("webdriver.chrome.driver", "D:/chromedriver-win64/chromedriver.exe");
         DesiredCapabilities cap = new DesiredCapabilities();
         Driver.add(Configuration.get("browser"), cap);

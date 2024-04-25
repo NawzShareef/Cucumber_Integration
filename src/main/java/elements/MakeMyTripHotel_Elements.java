@@ -32,8 +32,12 @@ public class MakeMyTripHotel_Elements {
  public WebElement adults;
  @FindBy(xpath = "//div[3]/div[@class='gstSlctCont']/div")
  public WebElement Children;
- @FindBy(xpath = "//button[@data-cy='RoomsGuestsNew_327']")
+// @FindBy(xpath = "//button[@data-cy='RoomsGuestsNew_327']")
+// public WebElement Apply;
+
+ @FindBy(xpath="//div[@class='`makeFlex flexOne spaceBetween']")
  public WebElement Apply;
+
 @FindBy(xpath = "//button[@data-cy='submit']")
 public WebElement searchbtn;
 @FindBy(xpath = "//input[@aria-label='Search for locality / hotel name']")
@@ -41,8 +45,8 @@ public WebElement hotelsearch;
 @FindBy(xpath = "//span[text()='Marigold By Green Park, Hyderabad, Telangana']")
 public WebElement hotelsearchdropdown;
 
- @FindBy(xpath = "//button[text()='VIEW THIS COMBO']")
- public WebElement viewThisCombo;
+ @FindBy(xpath = "//button[text()='BOOK THIS NOW']")
+ public WebElement bookThisNow;
 
 @FindBy(xpath="//span[@id='htl_id_seo_201211011552481969']")
 public WebElement clickOnHotel;
@@ -64,6 +68,7 @@ public WebElement clickOnHotel;
 
  @FindBy(xpath="//a[text()='Pay Now']")
  public WebElement payNow;
+
 
 
   public MakeMyTripHotel_Elements(WebDriver driver) {

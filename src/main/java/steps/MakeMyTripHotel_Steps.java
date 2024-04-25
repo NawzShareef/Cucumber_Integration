@@ -27,7 +27,10 @@ public class MakeMyTripHotel_Steps {
     public void i_close_the_window(String offer) throws InterruptedException {
         common_actions.offerAlertClose();
     }
-
+    @When("I close the {string} alert.")
+    public void i_close_the_alert(String alert) throws InterruptedException {
+        common_actions.loginAlertClose();
+    }
     @Then("I verify the {string} for booking both Domestic and International properties online.")
     public void i_verify_the_for_booking_both_domestic_and_international_properties_online(String optionsDisplay) throws InterruptedException {
         makemytrip_Hotel_actions.displayOptions();
