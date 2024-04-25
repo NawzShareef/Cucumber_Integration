@@ -41,3 +41,5 @@ Feature: Make My trip Home Page Scenarios
 #    And    I provide the "Contact Information" and Additional Preferences details.
 #    Then   I click on the "Pay&BookNow" button.
 
+
+

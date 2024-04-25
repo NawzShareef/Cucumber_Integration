@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7728163a-b3f6-414a-97a6-5f496ae9b3b4" name="Changes" comment="">
+    <list default="true" id="7728163a-b3f6-414a-97a6-5f496ae9b3b4" name="Changes" comment="Commit_V.1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/actions/Common_Actions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/actions/Common_Actions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/actions/MakeMyTripHotel_Actions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/actions/MakeMyTripHotel_Actions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/elements/Common_Element.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/elements/Common_Element.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/elements/MakeMyTripHotel_Elements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/elements/MakeMyTripHotel_Elements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/framework/Configuration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/framework/Configuration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/framework/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/framework/Driver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/steps/Driver_Steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/steps/Driver_Steps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/steps/MakeMyTripHotel_Steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/steps/MakeMyTripHotel_Steps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/features/makemytrip.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/makemytrip.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -117,6 +110,10 @@
       <updated>1713948865651</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Commit_V.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit_V.1" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Cucumber_Framework_Integration$TestRunner.ic" NAME="TestRunner Coverage Results" MODIFIED="1713949453900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

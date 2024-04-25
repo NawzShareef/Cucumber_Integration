@@ -16,8 +16,8 @@ public class Driver_Steps {
     @Before
     public void setUp() throws Exception {
 
-       //WebDriverManager.chromedriver().setup();
-        System.setProperty("webdriver.chrome.driver", "D:/chromedriver-win64/chromedriver.exe");
+        WebDriverManager.chromedriver().setup();
+        //System.setProperty("webdriver.chrome.driver", "D:/chromedriver-win64/chromedriver.exe");
         DesiredCapabilities cap = new DesiredCapabilities();
         Driver.add(Configuration.get("browser"), cap);
         driver = Driver.current();
