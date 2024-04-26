@@ -35,8 +35,8 @@ public class Common_Actions {
         }
     }
     public void offerAlertClose() throws InterruptedException {
-        GlobalWait.wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//iframe[@name='notification-frame-~55858699']")));
-        WebElement notificationFrame=driver.findElement(By.xpath("//iframe[@name='notification-frame-~55858699']"));
+        GlobalWait.wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//iframe[@name='notification-frame-~5585888a']")));
+        WebElement notificationFrame=driver.findElement(By.xpath("//iframe[@name='notification-frame-~5585888a']"));
         driver.switchTo().frame(notificationFrame);
         boolean image=driver.findElement(By.xpath("//a/i[@class='wewidgeticon we_close']")).isDisplayed();
         if (image) {

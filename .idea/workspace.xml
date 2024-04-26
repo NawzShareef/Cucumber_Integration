@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7728163a-b3f6-414a-97a6-5f496ae9b3b4" name="Changes" comment="Commit_V.1">
+    <list default="true" id="7728163a-b3f6-414a-97a6-5f496ae9b3b4" name="Changes" comment="Commit_V.2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/steps/Driver_Steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/steps/Driver_Steps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/features/makemytrip.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/makemytrip.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/actions/Common_Actions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/actions/Common_Actions.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,11 +108,31 @@
       <option name="presentableId" value="Default" />
       <updated>1713948865651</updated>
     </task>
+    <task id="LOCAL-00001" summary="Commit_V.2">
+      <created>1714042282480</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1714042282480</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit_V.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit_V.1" />
+    <MESSAGE value="Commit_V.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit_V.2" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Cucumber_Framework_Integration$TestRunner.ic" NAME="TestRunner Coverage Results" MODIFIED="1713949453900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
